@@ -1,0 +1,8 @@
+# Server Side 
+
+TriggerClientEvent('Dynamic-Notify:sendNotify', src, "MY TITLE", "MY MESSAGE", 5000, 'success')
+
+# Cilent Side
+
+exports['Dynamic-Notify']:sendNotify("MY TITLE", "MY MESSAGE", 5000, 'success')
+
